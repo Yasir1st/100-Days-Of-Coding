@@ -1,0 +1,12 @@
+angka_pertama = int(input("Masukkan angka pertama : "))
+operator = input("Masukkan operator : ")
+angka_kedua = int(input("Masukkan angka kedua : "))
+
+if(operator == "+"):print(angka_pertama,operator,angka_kedua,"=",(angka_pertama+angka_kedua))
+elif(operator == "-"):print(angka_pertama,operator,angka_kedua,"=",(angka_pertama-angka_kedua))
+elif(operator == "*"):print(angka_pertama,operator,angka_kedua,"=",(angka_pertama*angka_kedua))
+elif(operator == "/"):print(angka_pertama,operator,angka_kedua,"=",(angka_pertama/angka_kedua))
+elif(operator == "//"):print(angka_pertama,operator,angka_kedua,"=",(angka_pertama//angka_kedua))
+elif(operator == "%"):print(angka_pertama,operator,angka_kedua,"=",(angka_pertama%angka_kedua))
+elif(operator == "**"):print(angka_pertama,operator,angka_kedua,"=",(angka_pertama**angka_kedua))
+else:print("Error:Operator Tidak Sesuai")
