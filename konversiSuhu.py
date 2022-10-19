@@ -1,0 +1,7 @@
+print("=================================================================================")
+F = int(input("Masukkan suhu(F) : "))
+print("=================================================================================")
+print("suhu",F,"derajat Fahrenheit sama dengan ",round((5/9*(F-32)), 2),"derajat Celcius")
+print("suhu",F,"derajat Fahrenheit sama dengan ",round((4/9*(F-32)), 2),"derajat Reamur")
+print("suhu",F,"derajat Fahrenheit sama dengan ",round((5/9*(F+459.4)), 2),"derajat Kelvin")
+print("=================================================================================")
