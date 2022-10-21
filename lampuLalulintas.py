@@ -1,0 +1,5 @@
+lampuLalulintas = input("Jika lampu berwarna :")
+if(lampuLalulintas == "merah"):print("Maka kendaraan berhenti")
+elif(lampuLalulintas == "orange"):print("Maka kendaraan bersiap siap untuk jalan")
+elif(lampuLalulintas == "hijau"):print("Maka kendaraan jalan")
+else:print("maka tidak dapat di identifikasi")
