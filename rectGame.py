@@ -21,7 +21,6 @@ lebar = 20
 
 # kecepatan gerak
 speed = 10
-
 while isRun:
     pygame.time.delay(10)
 

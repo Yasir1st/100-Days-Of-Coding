@@ -1,5 +1,5 @@
 def line():
-    print("-"*50)
+    print("-"*40)
     
 #Hitung BMI
 line()

@@ -32,14 +32,13 @@ input_frame.pack(padx=10,pady=10,fill="x",expand=True)
 
 # Komponen Komponen
 # Label Nama Depan
-nama_depan_label = Label(input_frame,text="Nama Depan :")
+nama_depan_label = Label(input_frame,text="Nama Depan : ")
 nama_depan_label.pack(padx=10,pady=10,fill="x",expand=True)
 # Entry Nama Depan
 nama_depan_entry = Entry(input_frame,textvariable=NAMA_DEPAN)
 nama_depan_entry.pack(padx=10,fill="x",expand=True)
-nama_depan_entry.configure(background="Black")
 # Label Nama Belakang
-nama_belakang_label = Label(input_frame,text="Nama Belakang :")
+nama_belakang_label = Label(input_frame,text="Nama Belakang : ")
 nama_belakang_label.pack(padx=10,pady=10,fill="x",expand=True)
 # Entry Nama Belakang
 nama_belakang_entry = Entry(input_frame,textvariable=NAMA_BELAKANG)

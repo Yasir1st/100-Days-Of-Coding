@@ -14,8 +14,7 @@ def line2():
 
 def title(judul):
     '''title'''
-    print(judul.center(46))
-
+    print("|",judul.center(42),"|")
 # Header
 line()
 title("Birthday Program")
@@ -38,7 +37,7 @@ line()
 today = dt.date(T_TAHUN,T_BULAN,T_TANGGAL)
 birthday = dt.date(TAHUN,BULAN,TANGGAL)
 
-# Ulang Tahun Berikutnya
+# Next Birthday
 if(T_BULAN == BULAN):
     if(T_TANGGAL <= TANGGAL):
         next_birthday = dt.date(T_TAHUN,BULAN,TANGGAL)
@@ -54,7 +53,9 @@ to_bulan = (to_birthday.days % 365)//30
 to_hari = (to_birthday.days % 365)%30
 to_M_D = str(to_bulan)+" Bulan | "+str(to_hari)+" Hari"
 
-# Details
+next_date = (f"{next_birthday:%A}, {next_birthday}")
+
+# Details Birthday
 umur_hari = today-birthday
 umur_jam = umur_hari.days*24
 umur_menit = (umur_hari.days*24)*60
@@ -68,10 +69,12 @@ sisa_hari = (umur_hari.days % 365)%30
 umur_tahun_ket = str(umur_tahun)+" Tahun"
 umur_M_D_ket = str(sisa_bulan)+" Bulan | "+str(sisa_hari)+" Hari"
 
-print(f"|{'USIA':^20}| {'NEXT BIRTHDAY':<22}|")
+
+# Show All
+print(f"|{'USIA':^20}| {'NEXT BIRTHDAY':^22}|")
 line2()
-print(f"|{umur_tahun_ket:^20}| {next_birthday:%A} ,{next_birthday}    |")
-print(f"|{umur_M_D_ket:^20}| {to_M_D:<22}|")
+print(f"|{umur_tahun_ket:^20}| {next_date:^22}|")
+print(f"|{umur_M_D_ket:^20}| {to_M_D:^22}|")
 line()
 title("Ringkasan")
 line2()

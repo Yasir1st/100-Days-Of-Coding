@@ -1,6 +1,7 @@
-# module matematika
+# Modul Mtk
 
 def tambah(*args):
+    '''Tambah'''
     hasil = 0
     for data in args:
         hasil += data
@@ -8,6 +9,7 @@ def tambah(*args):
     return hasil
 
 def kali(*args):
+    '''Kali'''
     hasil = 1
     for data in args:
         hasil *= data
@@ -15,4 +17,5 @@ def kali(*args):
     return hasil
 
 def pangkat(n:int):
+    '''pangkat'''
     return lambda angka:angka**n

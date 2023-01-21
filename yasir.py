@@ -1,4 +1,4 @@
-simbol="8"
+simbol="$"
 print(" ")
 def ya():
     for row in range(1,15):

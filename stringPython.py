@@ -1,0 +1,1 @@
+print('He said "Python", not "typhoon"\n"i\'m"\n""learning""\n"""Python"""')

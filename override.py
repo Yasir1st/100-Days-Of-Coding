@@ -19,7 +19,7 @@ class Hero_Hydro(Hero):
 	# override
 	def showInfo(self):
 		print("showInfo di subclass Hero_Hydro")
-		print("{} \n\tTipe: intelligent, \n\thealth: {}".format(
+		print("{} \n\tTipe: Hydro, \n\thealth: {}".format(
 			self.name,
 			self.health
 			)

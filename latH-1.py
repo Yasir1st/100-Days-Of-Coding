@@ -17,9 +17,11 @@ line()
 batas = int(input("Batas Bilangan Prima : "))
 
 for i in range(1,batas+1):
-    if(i == 3 or i == 2):
+    if(i <= 1):
+        pass
+    elif(i == 3 or i == 2):
         print(i)
-    elif(i == 1 or i % 2 == 0 or i % 3 == 0):
+    elif(i % 2 == 0 or i % 3 == 0):
         pass
     else:
         print(i)

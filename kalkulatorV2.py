@@ -56,11 +56,11 @@ def bagi():
     return hasil_tambah
 
 # Menu
-firts_angka = Label(input_frame,text="Angak Pertama : ")
+firts_angka = Label(input_frame,text="Angak Pertama : ",background="salmon",foreground="white")
 firts_angka.pack(padx=10,pady=10,fill="x",expand=True)
 
 firts_entry = Entry(input_frame,textvariable=ANGKA_PERTAMA)
-firts_entry.pack(padx=10,pady=10,fill="x",expand=True)
+firts_entry.pack(padx=10,pady=10,fill="x",expand=True,ipadx=10,ipady=10)
 
 second_angka = Label(input_frame,text="Angak Kedua : ")
 second_angka.pack(padx=10,pady=10,fill="x",expand=True)
